@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <script src="dist/sweetalert.min.js"></script>
+      <link rel="shorcut icon" type="image/x-icon" href="img/492snake_100855.ico">
+      <link rel="stylesheet" href="css/style.css" />
+    <title>Snake Game</title>
+        <style>
+      body {
+        background-image: url(img/fondo.gif)  ;
+           background-size: 100% 100%;
+          background-attachment: fixed;
+      }
+    </style> 
+
+      
+   
+  </head>
+  <body>
+    <audio  autoplay >
+      <source src="audio/hissing.mp3" type="audio/mp3">
+     <source src="audio/hissing.wav" type="audio/wav">    
+      </audio>  
+    <div class="menu">  
+    <div class="header">
+      <h2>Snake </h2>
+    </div>
+    <h3>Select Level</h3>
+    <div class="select-level">
+      <form action="play.html" id="levels">
+        <select name="" id="level">
+          <option id="option" value="easy">Easy</option>
+          <option id="option" value="medium">Medium</option>
+          <option id="option" value="hard">Hard</option>
+        </select>
+        <input type="submit" value="Play" id="submit" />
+        <input
+          type="button"
+          value="Reset"
+          onclick="resetHighScore()"
+          id="reset"
+        />
+      </form>
+    </div>
+   
+    <h3>High Score All Levels: <span class="highScore"></span></h3>
+    <div class="scores"></div>
+     </div> 
+      
+       <script src="js/main.js"></script>
+       
+  </body>
+</html>

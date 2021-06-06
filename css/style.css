@@ -1,0 +1,93 @@
+* {
+    margin: 0%;
+}
+
+body {
+    background: rgb(19, 21, 36);
+}
+.header{
+    background-color: white;
+}
+ h2 {
+          
+    color: #64B745;
+    padding: 15px;
+    font-size: 60px;
+    text-align: center;      
+}
+ h3 {
+          
+    color: white;
+    padding: 15px;
+    background: #AFF31A;
+    border-right: 10px solid white;
+    border-left: 10px solid white;  
+    text-align: center;
+}
+.scores {
+    color: white;
+    display: flex;
+    justify-content: center;
+    background: #64B745;
+
+    text-align: center;
+}
+.select-level {
+    background: #64B745;
+    display: flex;
+    justify-content: center;
+}
+#levels {
+    width: 50%;
+    min-width: 200px;
+    max-width: 400px;
+    padding: 15px;
+}
+#level,
+#submit,
+#reset {
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 3px;
+    border-radius: 5px;
+    border: none;
+}
+
+#submit {
+    color: aliceblue;
+    background: rgb(31, 141, 21);
+}
+
+#reset {
+    color: aliceblue;
+    background: red;
+}
+#level:hover {
+    cursor: pointer;
+}
+#submit:hover,
+#reset:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+.menu{
+    position: absolute;
+   height: 50%;
+    width: 50%;
+    top: 15%;
+   left: 25%;
+    right: 25%;
+    bottom: 25%;
+   
+    
+    
+}
+.scores{
+    border-bottom: 10px solid white;
+    border-right: 10px solid white;
+    border-left: 10px solid white;
+}
+.select-level{
+     border-right: 10px solid white;
+    border-left: 10px solid white;   
+}
